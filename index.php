@@ -21,23 +21,32 @@
 <body>
 	<div class="main">
 		<section class="landing">
-			<h1>Colleen Bowes</h1>
-			<h2>Web Developer/Designer</h2>
-			<div class="socialMedia">
-				<div class="socialIcon">
-					<i class="fab fa-facebook-f" alt="Facebook"></i>
+			<div class="landingInsideWrap">
+				<div class="f60">
+					<div class="nameTitleWrapper">
+						<h1>Colleen Bowes</h1>
+						<h2>Web Developer/Designer</h2>
+					</div>
 				</div>
-				<div class="socialIcon">
-					<i class="fab fa-facebook-f" alt="Twitter"></i>
-				</div>
-				<div class="socialIcon">
-					<i class="fab fa-facebook-f" alt="Instagram"></i>
-				</div>
-				<div class="socialIcon">
-					<i class="fab fa-facebook-f" alt="Github"></i>
-				</div>
-				<div class="socialIcon">
-					<i class="fab fa-facebook-f" alt="LinkedIn"></i>
+				<div class="f40">
+
+					<div class="socialMedia">
+						<div class="socialIcon f20">
+							<i class="fab fa-facebook-f fa-2x" alt="Facebook"></i>
+						</div>
+						<div class="socialIcon f20">
+							<i class="fab fa-twitter fa-2x" alt="Twitter"></i>
+						</div>
+						<div class="socialIcon f20">
+							<i class="fab fa-instagram fa-2x" alt="Instagram"></i>
+						</div>
+						<div class="socialIcon f20">
+							<i class="fab fa-github fa-2x" alt="Github"></i>
+						</div>
+						<div class="socialIcon f20">
+							<i class="fab fa-linkedin fa-2x" alt="LinkedIn"></i>
+						</div>
+					</div>
 				</div>
 			</div>
 		</section>
