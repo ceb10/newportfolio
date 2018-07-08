@@ -1,0 +1,51 @@
+/********************************** CSS RESET **********************************/
+
+@import 'reset.css';
+/******************************** CSS RESET END ********************************/
+
+/* Fonts */
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Raleway');
+/* Fonts End */
+
+$title-font: 'Raleway',
+sans-serif;
+$open-sans: 'Open Sans',
+sans-serif;
+
+
+html {
+//    overflow-x: hidden;
+}
+
+/* Landing First Page */
+
+h1 {
+    font-family: $title-font;
+    font-size: 5rem;
+}
+
+h2 {
+    font-family: $open-sans;
+    font-size: 1.4rem;
+}
+
+.landing {
+    height: 900px;
+    width: 100vw;
+    background: linear-gradient(to bottom, hsl(180, 100%, 25%), hsl(53, 66%, 55%));
+    padding-left: 70px;
+    h1 {
+        color: white;
+        padding-top: 400px;
+        text-align: left;
+        padding-bottom: 30px;
+            text-align: left;
+    }
+    h2 {
+        color: white;
+        padding-top: 30px;
+        text-align: left;
+        
+    }
+}
