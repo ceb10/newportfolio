@@ -93,15 +93,43 @@
 				</div>
 				<div class="f50">
 					<div class="portrait">
-						<div class="photo" 						style="background: url('Colleen-for-web.jpg');"
->
+						<div class="photo" style="background: url('Colleen-for-web.jpg');">
 						</div>
 					</div>
 				</div>
 			</div>
-		</section>
+		</section>   
+
 		<section class="skills" id="skills">
-			<p>HTML/CSS Javascript/JQuery SCSS/Git PHP Drupal/Wordpress CMS Animation Adobe Illustrator Adobe Photoshop Adobe Indesgin Adobe Dreamweaver MySQL Social Media Microsoft Office (Word, PowerPoint &amp; Excel) Frameworks (Foundation &amp; Bootstrap)</p>
+			<div class="sectionInsideWrap">
+				<div class="f50 ">
+				</div>
+				<div class="skillsInnerWrap f50">
+					<h2>Skills</h2>
+					<div class="skillList">
+					<ul>
+						<div class="f30"><li>HTML5</li></div>
+						<div class="f30"><li>CSS3/SASS</li></div>
+						<div class="f30"><li>inDesign</li></div>
+						<div class="f30"><li>Illustrator</li></div>
+						<div class="f30"><li>Photoshop</li></div>
+						<div class="f30"><li>Javascript</li></div>
+						<div class="f30"><li>jQuery</li></div>
+						<div class="f30"><li>PHP</li></div>
+						<div class="f30"><li>Git/Github</li></div>
+						<div class="f30"><li>Wordpress</li></div>
+						<div class="f30"><li>Responsive Design</li></div>
+						<div class="f30"><li>cPanel</li></div>
+						<div class="f30"><li>SEO</li></div>
+						<div class="f30"><li>Animation</li></div>
+						<div class="f30"><li>Bootstrap</li></div>
+						<div class="f30"><li>Social Media</li></div>
+						<div class="f30"><li>Microsoft Office</li></div>
+					</ul>
+</div>
+				</div>
+
+			</div>
 		</section>
 		<section class="work" id="work">
 			<h1>Colleen Bowes</h1>
