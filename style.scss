@@ -8,10 +8,8 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans|Raleway');
 /* Fonts End */
 
-$title-font: 'Raleway',
-sans-serif;
-$open-sans: 'Open Sans',
-sans-serif;
+$title-font: 'Raleway', sans-serif;
+$open-sans: 'Open Sans', sans-serif;
 
 
 html {
@@ -85,7 +83,7 @@ section {
 /* About */
 
 .about {
-        background-color: #f2f2f2;
+    background-color: #f2f2f2;
 
     .whoIAm {
         height: 500px;
@@ -173,65 +171,77 @@ section {
 
 /* Skills */
 
-.skillsInnerWrap .skillList {
+.skillsInnerWrap .skillList {}
 
-}
-
-.skillsInnerWrap {
-    color: white;
-    .skillList {
-    background-color: #5c466d;
-    padding: 20px;
+.leftDivWrap {
     height: 100%;
-    position: inherit;
-    right: 100px;
     width: auto;
-    top: 200px;
-        ul {
-            display: flex;
-            flex-flow: row wrap;
-            justify-content: flex-start;
-            height: 100%;
-            li {
-                text-align: center;
-                margin: auto;
-                font-family: $open-sans;
 
+    .skillsLeftDivPhoto {
+        background-image: url(skillBG.jpg);
+        height: 100%;
+        width: 100%;
+        background-size: cover;
+        background-repeat: no-repeat;
 
-            }
-        }
-        .f30 {
-            width: 50%;
-        }
     }
 }
 
+.skillsInnerWrap {
+    color: black;
+    .skillList {
+            display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+        
+        .f30 {
+            width: 30%;
+    flex-direction: column;
+    display: flex;
+    flex-flow: column nowrap;
+            .innerSkillDiv {
+                padding: 40px;
+                text-align: center;
+            }
+        }
+
+        }
+
+    }
+
+
 .skills {
-    background: url('skillBG.jpg');
+    background-color: #fff;
+
     background-size: cover !important;
     background-repeat: no-repeat !important;
     background-position: center !important;
     position: relative;
     h2 {
-        position: absolute;
-        left: 50px;
-        font-size: 100px;
-        top: 50px;
+
         color: white;
         font-family: $title-font;
+        font-size: 130px;
+        font-weight: 600;
+        position: absolute;
+        top: 400px;
+        right: 809px;
 
 
     }
-
-    h2:after {
-
-        background-color: hsl(53, 66%, 55%);
-        height: 2px;
-        display: block;
-        width: 500px;
-        content: ' ';
-        margin: -26px;
+    span.black {
+        color: black;
     }
+    //
+    //    h2:after {
+    //
+    ////        background-color: hsl(53, 66%, 55%);
+    //        height: 2px;
+    //        display: block;
+    //        width: 500px;
+    //        content: ' ';
+    //        margin: -26px;
+    //    }
 }
 
 /* Skills End */
@@ -289,19 +299,7 @@ section {
 
 
     }
-    .skillsInnerWrap .skillList {
-        background-color: hsl(274, 22%, 35%);
-        padding: 20px;
-        height: 500px;
-        position: absolute;
 
-        right: 100px;
-        width: 70%;
-        top: 200px;
-                .f30 {
-            width: 30%;
-        }
-        }
     .landing {
 
         h1,

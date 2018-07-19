@@ -111,48 +111,47 @@ section {
 
 /* About End */
 /* Skills */
-.skillsInnerWrap {
-  color: white; }
-  .skillsInnerWrap .skillList {
-    background-color: #5c466d;
-    padding: 20px;
+.leftDivWrap {
+  height: 100%;
+  width: auto; }
+  .leftDivWrap .skillsLeftDivPhoto {
+    background-image: url(skillBG.jpg);
     height: 100%;
-    position: inherit;
-    right: 100px;
-    width: auto;
-    top: 200px; }
-    .skillsInnerWrap .skillList ul {
-      display: flex;
-      flex-flow: row wrap;
-      justify-content: flex-start;
-      height: 100%; }
-      .skillsInnerWrap .skillList ul li {
-        text-align: center;
-        margin: auto;
-        font-family: "Open Sans", sans-serif; }
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat; }
+
+.skillsInnerWrap {
+  color: black; }
+  .skillsInnerWrap .skillList {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start; }
     .skillsInnerWrap .skillList .f30 {
-      width: 50%; }
+      width: 30%;
+      flex-direction: column;
+      display: flex;
+      flex-flow: column nowrap; }
+      .skillsInnerWrap .skillList .f30 .innerSkillDiv {
+        padding: 40px;
+        text-align: center; }
 
 .skills {
-  background: url("skillBG.jpg");
+  background-color: #fff;
   background-size: cover !important;
   background-repeat: no-repeat !important;
   background-position: center !important;
   position: relative; }
   .skills h2 {
-    position: absolute;
-    left: 50px;
-    font-size: 100px;
-    top: 50px;
     color: white;
-    font-family: "Raleway", sans-serif; }
-  .skills h2:after {
-    background-color: #d8c641;
-    height: 2px;
-    display: block;
-    width: 500px;
-    content: ' ';
-    margin: -26px; }
+    font-family: "Raleway", sans-serif;
+    font-size: 130px;
+    font-weight: 600;
+    position: absolute;
+    top: 400px;
+    right: 809px; }
+  .skills span.black {
+    color: black; }
 
 /* Skills End */
 .f30,
@@ -190,17 +189,6 @@ section {
 
   .landingInsideWrap {
     padding-left: 70px; }
-
-  .skillsInnerWrap .skillList {
-    background-color: #5c466d;
-    padding: 20px;
-    height: 500px;
-    position: absolute;
-    right: 100px;
-    width: 70%;
-    top: 200px; }
-    .skillsInnerWrap .skillList .f30 {
-      width: 30%; }
 
   .landing h1,
   .landing h2 {

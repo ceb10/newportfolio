@@ -9,7 +9,8 @@
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
 
 	<!--	<script src="js/jquery.onepage-scroll.min.js" type="text/javascript"></script>-->
-	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.1/css/all.css" integrity="sha384-O8whS3fhG2OnA5Kas0Y9l3cfpmYjapjI0E4theH4iuMD+pLhbf6JI0jIMfYcK3yZ" crossorigin="anonymous">
+
 
 
 </head>
@@ -98,42 +99,57 @@
 					</div>
 				</div>
 			</div>
-		</section>   
+		</section>
 
 		<section class="skills" id="skills">
 			<div class="sectionInsideWrap">
 				<div class="f50 ">
+					<div class="leftDivWrap">
+						<div class="skillsLeftDivPhoto">
+						</div>
+					</div>
 				</div>
 				<div class="skillsInnerWrap f50">
-					<h2>Skills</h2>
+					<h2>Ski<span class="black">lls</span></h2>
 					<div class="skillList">
-					<ul>
-						<div class="f30"><li>HTML5</li></div>
-						<div class="f30"><li>CSS3/SASS</li></div>
-						<div class="f30"><li>inDesign</li></div>
-						<div class="f30"><li>Illustrator</li></div>
-						<div class="f30"><li>Photoshop</li></div>
-						<div class="f30"><li>Javascript</li></div>
-						<div class="f30"><li>jQuery</li></div>
-						<div class="f30"><li>PHP</li></div>
-						<div class="f30"><li>Git/Github</li></div>
-						<div class="f30"><li>Wordpress</li></div>
-						<div class="f30"><li>Responsive Design</li></div>
-						<div class="f30"><li>cPanel</li></div>
-						<div class="f30"><li>SEO</li></div>
-						<div class="f30"><li>Animation</li></div>
-						<div class="f30"><li>Bootstrap</li></div>
-						<div class="f30"><li>Social Media</li></div>
-						<div class="f30"><li>Microsoft Office</li></div>
-					</ul>
-</div>
+						<div class="f30">
+							<div class="innerSkillDiv">
+
+								<p>Web Design</p>
+								<p>Illustrator | inDesign | illustrator | Photoshop | Responsive Design </p>
+							</div>
+						</div>
+						<div class="f30">
+							<div class="innerSkillDiv">
+								<p>Web Development</p>
+								<p>HTML5 | CSS3/SASS | Javascript | jQuery | PHP | Animation | Git | cPanel</p>
+							</div>
+						</div>
+
+
+						<div class="f30">
+							<div class="innerSkillDiv">
+								<p>Platforms Used</p>
+								<p>Github | Wordpress | Bootstrap | Foundation</p>
+							</div>
+						</div>
+
+						<div class="f30">
+							<div class="innerSkillDiv">
+								<p>Marketing</p>
+								<p>SEO | Social Media | Microsoft Office</p>
+							</div>
+						</div>
+
+
+					</div>
 				</div>
 
 			</div>
 		</section>
 		<section class="work" id="work">
-			<h1>Colleen Bowes</h1>
-			<h2>Web Developer/Designer</h2>
+			<h2>Recent Work</h2>
+			<div class=
 		</section>
 		<section class="contact" id="contact">
 
